@@ -20,6 +20,5 @@ async function(){
   await saveBtn.click();
 
 
-
-  await driver.quit();
+  //setTimeout(()=> driver.quit(), 1000);
 })();
